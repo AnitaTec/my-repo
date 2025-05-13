@@ -1,0 +1,16 @@
+  130  cd /GIT
+  131  cd GIT
+  132  pwd
+  133  cd Desktop/GIT
+  134  git clone git@github.com:AnitaTec/my-repo.git
+  135  cd my-repo
+  136  git checkout -b feature
+  137  ls -al
+  138  nano .gitignore
+  139  nano README.md
+  140  git add .gitignore README.md
+  141  git commit -m "Initial commit with .gitignore and README.md"
+  142  git push origin feature
+  143  git commit --amend -m "Initial commit with .gitignore and README.md ammend"
+  144  git checkout main
+  145  git merge feature
